@@ -1,3 +1,5 @@
+import Q2.EquilateralTriangle;
+
 public class Demo {
     public static void main(String[] args) {
         Shape[] shapes = {
