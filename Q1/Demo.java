@@ -8,9 +8,10 @@ public class Demo {
                 new Triangle(5, 6, 8)
 
         };
-
+        System.out.println();
         for (Shape shape : shapes) {
             System.out.println(shape);
+            System.out.println();
         }
     }
 }

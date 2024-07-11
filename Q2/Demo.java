@@ -10,18 +10,22 @@ public class Demo {
 
         };
         System.out.println();
-        System.out.println("Before the Scaling:");
+        System.out.println("\nBefore the Scaling:\n");
         for (Scalable shape : shapes) {
             System.out.println(shape);
         }
+
+        System.out.println();
 
         scaleShapes(shapes, 2);
 
         System.out.println();
-        System.out.println("After the Scaling:");
+        System.out.println("\nAfter the Scaling:\n");
         for (Scalable shape : shapes) {
             System.out.println(shape);
         }
+
+        System.out.println();
     }
 
     public static void scaleShapes(Scalable[] shapes, double factor) {
