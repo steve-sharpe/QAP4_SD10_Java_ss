@@ -35,6 +35,9 @@ public class CountLetters {
             }
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
+        } finally {
+            scanner.close();
         }
     }
+
 }
